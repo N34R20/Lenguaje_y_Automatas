@@ -1,1 +1,1 @@
-# Lenguaje_y_Automatas
+# Lenguaje y Automatas
