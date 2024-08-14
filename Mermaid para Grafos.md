@@ -40,3 +40,8 @@ En este ejemplo:
    
 2. **Alternativa:** Si necesitas asegurarte de que las fórmulas se rendericen correctamente en todas las plataformas, considera usar imágenes generadas de las fórmulas y referenciarlas en los nodos en lugar de texto LaTeX.
 
+```mermaid
+graph TD;
+    A["\(E = mc^2\)"] --> B["\(a^2 + b^2 = c^2\)"];
+    C["Nodo con \(\int_a^b f(x)\, dx\)"] --> D["Fórmula: \(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)"];
+```
