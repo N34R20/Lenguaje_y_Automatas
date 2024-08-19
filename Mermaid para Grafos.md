@@ -25,7 +25,7 @@ Puedes ajustar los colores y el ancho de las líneas según tus necesidades.
 
 ```mermaid
 graph TD;
-    A["$$E = mc^2$$"] --> B["$$ a^2 + b^2 = c^2 $$"];
+    A["$$ E = mc^2 $$"] --> B["$$ a^2 + b^2 = c^2 $$"];
     C["Nodo con $$\int_a^b f(x)\, dx$$"] --> D["Fórmula: $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$"];
 
 ```
