@@ -1,5 +1,10 @@
 # Lenguajes, Automatas y Computabilidad
 
+# Tareas
+
+- [ ] terminar la guia 1
+- [ ] seguir con el Automata
+- [ ] Como agregar notas de ipad al repo
 
 
 
@@ -18,3 +23,6 @@
 12. Diagonalización.
 13. Lenguajes computables y computablemente enumerables.
 14. Teorema de Rice.
+
+## Bibliografia
+- Introduction to Automata Theory, Languages and Computation
