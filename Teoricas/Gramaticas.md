@@ -137,7 +137,7 @@ Es una clasiﬁcación jerárquica de tipos de gramáticas formales que generan 
 
 #### Jerarquia de Chomsky
 
-![](/imgs/jerarquiaChomsky.png)
+![foto de chomsky](/imgs/jerarquiaChomsky.png)
 
 ## Gramaticas
 
