@@ -1,12 +1,5 @@
 # Lenguajes, Automatas y Computabilidad
 
-# Tareas
-
-- [ ] terminar la guia 1
-- [ ] seguir con el Automata
-- [ ] Como agregar notas de ipad al repo
-
-
 
 ## Temario
 
