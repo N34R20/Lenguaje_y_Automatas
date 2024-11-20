@@ -197,7 +197,7 @@ $$\partial a (L) = \{\alpha | \alpha \in \Sigma \text{ tal que } a \alpha \in L\
 
 #### Derivada de una ER segun su estructura
 
-Para $a \in \Sigma$, 
+Para $a \in \Sigma$,
 
 $$\partial a(\emptyset) = \emptyset$$
 
