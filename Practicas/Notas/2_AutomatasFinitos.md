@@ -94,7 +94,7 @@ Dado un Automata Finito Deterministico **completo**, hay que invertir los finale
 
 #### Reversa
 
-Dado un AFND-$\lambda$, obtener $$ tal que:
+Dado un AFND-$\lambda$, obtener $A' = \langle Q', \Sigma, \delta', q_0', F' \rangle$ tal que:
 
 - $Q' = Q \cup \{q_0'\}$ (nuevo inicial)
 - $\delta'(q_0', \lambda) = F$ (arrancar por los finales)
