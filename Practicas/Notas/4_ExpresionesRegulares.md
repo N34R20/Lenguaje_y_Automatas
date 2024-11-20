@@ -128,11 +128,11 @@ Intuicion: $\alpha$ es el caso recursivo y $\beta$ el caso base.
 
 De la misma forma que definimos el lenguaje $L$ como el conjunto de cadenas aceptadas por el automata partiendo del estado $q_0$,
 
-$$L(A) = \{ \alpha \in \Sigma | \exist q_f \in F: (q_0, \alpha) \models^* (q_f, \lambda)\}$$
+$$L(A) = \{ \alpha \in \Sigma | \exists q_f \in F: (q_0, \alpha) \models^* (q_f, \lambda)\}$$
 
 para cada esatdo $q_i$ podemos definir un lenguaje $L_i$ que corresponda al conjunto de cadenas aceptadas partiendo de el
 
-$$L_i = \{ \alpha \in \Sigma | \exist q_f \in F: (q_i, \alpha) \models^* (q_f, \lambda) \}$$
+$$L_i = \{ \alpha \in \Sigma | \exists q_f \in F: (q_i, \alpha) \models^* (q_f, \lambda) \}$$
 
 
 #### Ecuaciones
@@ -154,13 +154,9 @@ $$L_i = a_1.L_{k_1} | ... | a_m . L_{k_m} | \epsilon(L_i)$$
 
 donde
 
-$$\epsilon(L) = 
-
-\begin{cases} 
-
+$$\epsilon(L) = \begin{cases} 
 \emptyset & \text{si } \lambda \notin L \\
 \{\lambda\} & \text{si } \lambda \in L
-
 \end{cases}$$
 
 
