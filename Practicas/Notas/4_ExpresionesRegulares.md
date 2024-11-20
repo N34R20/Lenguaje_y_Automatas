@@ -214,7 +214,7 @@ $$\partial a (R|S) = \partial a (R) | \partial a (S)$$
 
 $$\partial a (R.S) = \partial a (R).S | \epsilon(R).\partial a (S)$$
 
-$$\partial a (R^*) = \partial a (R). R^{*}$$
+$$\partial a (R^*) = \partial a (R).R^*$$
 
 $$\text{donde }\epsilon (R) = \begin{cases} 
 \emptyset & \text{si } \lambda \notin L \\
