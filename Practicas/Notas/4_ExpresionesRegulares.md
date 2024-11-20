@@ -203,13 +203,9 @@ $$\partial a(\emptyset) = \emptyset$$
 
 $$\partial a(\lambda) = \emptyset$$
 
-$$\partial a(b) = 
-
-\begin{cases} 
-
+$$\partial a(b) = \begin{cases} 
 \emptyset & \text{si } a \neq b \\
 \lambda & \text{si } a = b
-
 \end{cases}$$
 
 Si $R,S$ son expresiones regulares,
@@ -218,15 +214,11 @@ $$\partial a (R|S) = \partial a (R) | \partial a (S)$$
 
 $$\partial a (R.S) = \partial a (R).S | \epsilon(R).\partial a (S)$$
 
-$$\partial a (R^*) = \partial a (R). R^*$$
+$$\partial a (R^*) = \partial a (R). R^* $$
 
-$$\text{donde }\epsilon (R) = 
-
-\begin{cases} 
-
+$$\text{donde }\epsilon (R) = \begin{cases} 
 \emptyset & \text{si } \lambda \notin L \\
 \lambda & \text{si } \lambda \in L
-
 \end{cases}$$
 
 ### Porque las derivadas nos dan las transiciones?
