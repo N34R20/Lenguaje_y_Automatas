@@ -137,5 +137,16 @@ Los observadores de la secuencia $x = [a_1, ..., a_N]$ son:
 - $|x| = \text{ longitud de } x$
 
 
-
 ### Lenguajes primitivos recursivos
+
+Con lo visto podemos determinar tambien si un lenguaje es primitivo recursivo. 
+
+Diremos que un lenguaje es primitivo recursivo cuando la funcion caracteristica del lenguaje es primitiva recursiva.
+
+#### Ejemplos de lenguajes primitivos recursivos:
+- Lenguajes regulares
+- Lenguajes libres de contexto 
+
+#### Ejemplos de lenguajes que no son primitivos recursivos:
+- Gramaticas sin restricciones
+- Otras, pues no todas las funciones computables son primitivas recursivas.

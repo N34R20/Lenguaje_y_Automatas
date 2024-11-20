@@ -31,11 +31,59 @@ Vamos a trabajar con otro: el lenguje de programacion $\mathcal{S}++$
 
 ### Variables
 
+En un programa $\mathcal{S}++$ se pueden usar variables de tres tipos:
+
+- Parametros o variables de entrada: $X_1, X_2, X_3$
+- Variables locales: $Z_1, Z_2, Z_3$
+- Salida: $Y$
+
 ### Instrucciones
+
+Sean V una variable y P un programa. Una instruccion de $\mathcal{S}++$ es una de tres tipos:
+
+- Incremento (V++): incrementa el valor de V en 1
+- Decremento (V--): decrementa el valor de V en 1 (si es 0, no hace nada)
+- Loop (while V $\neq$ 0 do {P}): Ejecutab p minetras V sea distinto de 0
+- Instruccion vacia (pass): No hace nada.
 
 ### Programas
 
+UN programa es una sucesion de instrucciones. Para hacerlos legibles las escribimos en lineas separadas. Por ejemplo:
+
+$$    P_1:  Z_1++
+
+\\
+
+            Z_1++
+\\
+
+            while Z_1 \neq 0 do \{
+\\
+
+            Y++
+\\
+
+            Z_1--
+            
+            \}
+            $$
+
+
+    $P_1$:  $Z_1$++
+
+            $Z_1$++
+
+            while $Z_1 \neq 0$ do {
+
+              $Y++$
+
+              $Z_1--$
+            
+            }
+
 ### Funcion computada
+
+Dado un programa $P$, para cada $n \in \mathcal{N}$, se define $\Psi_P^{(n)} : \mathbb{N}^n \to \mathbb{N}$, la **funcion computada** por $P$ con $n$ entradas.
 
 ### Macros
 
