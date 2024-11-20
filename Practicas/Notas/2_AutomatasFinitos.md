@@ -62,7 +62,7 @@ Para que el automata quede bien definido, vamos a completarlo con un **estado tr
 
 Los automatas que venimos viendo hasta ahora eran **deterministicos**, en cada momento tenian una sola accion posible. $A_3'$ es un automata finito **no deterministico**, que en cada paso puede tener mas de una alternativa para elegir.
 
-Al igual que los AFDs, son una tupla $$ pero cambia la funcion de transicion:
+Al igual que los AFDs, son una tupla $A = \langle Q, \Sigma, \delta, q_0, F \rangle$ pero cambia la funcion de transicion:
 
 $$\delta : Q \times (\Sigma \cup \lambda) \to \mathcal{P}(Q)$$
 
